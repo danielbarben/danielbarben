@@ -1,0 +1,120 @@
+
+/* Style for our header texts
+	* --------------------------------------- */
+	h1 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 10vmin;
+    color: rgba(0,0,0,0.6);
+    margin: 0;
+		padding: 8vmin 0 4vmin 0;
+  }
+  p {
+    font-size: 6vmin;
+    color: rgba(0,0,0,0.6);
+    margin:0;
+    padding:0 0 4vmin 0;   
+  }
+  a {
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration:underline;
+  }
+  
+
+/* Intro Animation
+	* --------------------------------------- */
+  .intro {
+    left:-130%;
+    position:relative;
+  }
+  #p0 {
+    transition: all 300ms ease;
+  }
+  #p1 {
+    transition: all 600ms ease;
+  }
+  #p2 {
+    transition: all 900ms ease;
+  }
+  #p3 {
+    transition: all 1200ms ease;
+  }
+  
+	
+	/* Defining each section background and styles
+  * --------------------------------------- */
+  #bg00 {
+    text-align:center;
+  }
+  /*aligned left */
+  #bg01, #bg02, #bg03, #bg04, #bg05, #bg06 {
+    text-align:left;
+    padding-left:2vw;
+    padding-right:10vw;
+    background-size: cover;
+  }
+
+  /*background-images*/
+  #bg00 {
+    background: url(./img/welcome.jpg) no-repeat left bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  #bg01 {
+    background: url(./img/write.jpg) no-repeat right bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #bg02 {
+    background: url(./img/design.jpg) no-repeat left bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #bg03 {
+    background: url(./img/code.jpg) no-repeat right bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }    
+  #bg04 {
+    background: url(./img/example.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }  
+  #bg05 {
+    background: url(./img/awards.jpg) no-repeat right bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }  
+  #bg06 {
+    background: url(./img/danielbarben.jpg) no-repeat right bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }       
+
+  /*media
+	* --------------------------------------- */
+	@media only screen and (min-width: 600px) {
+    #bg01, #bg03 {
+      padding-right:20vw;
+    }
+    #bg02 {
+      padding-left:20vw
+    }
+  }
