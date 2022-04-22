@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.17",
-    "fullpage.js": "^3.0.8",
+    "fullpage.js": "^4.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
